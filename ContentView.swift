@@ -48,7 +48,6 @@ struct ContentView: View {
                                                .aspectRatio(contentMode: .fit)
                                                .frame(height: 60)
                                                .clipShape(RoundedRectangle(cornerRadius: 8))
-                                           
                                        } placeholder: {
                                            ProgressView()
                                        }
@@ -72,11 +71,9 @@ struct ContentView: View {
                                        .edgesIgnoringSafeArea(.bottom)
                                })
                            }
-                           
                        }
                    }
                }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
