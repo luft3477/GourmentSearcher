@@ -1,10 +1,3 @@
-//
-//  SafariView.swift
-//  GourmentSearcher
-//
-//  Created by luft on 2023/06/19.
-//
-
 import SwiftUI
 import SafariServices
 
